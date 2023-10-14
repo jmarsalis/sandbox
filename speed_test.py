@@ -2,7 +2,7 @@
 import speedtest as test
 
 # Set best server
-server = test.Speedtest()
+server = test.Speedtest(secure=True)
 server.get_best_server()
 
 # Test ping
